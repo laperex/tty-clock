@@ -621,7 +621,7 @@ main(int argc, char **argv)
                ttyclock.option.bold = true;
                break;
           case 'C':
-               if(atoi(optarg) >= 0 && atoi(optarg) < 8)
+               if(atoi(optarg) >= 0 && atoi(optarg) < 256)
                     ttyclock.option.color = atoi(optarg);
                break;
           case 't':
